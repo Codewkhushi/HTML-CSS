@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+      .moving-element {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        animation: slide 5s linear infinite;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="moving-element"></div>
+  </body>
+</html>
