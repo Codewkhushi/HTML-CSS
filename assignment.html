@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Search Results</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Search Results</h1>
+		<form>
+			<input type="text" id="search-term" name="search-term" placeholder="Enter your search term...">
+			<button type="submit">Search</button>
+		</form>
+	</header>
+	<main>
+		<table>
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Description</th>
+					<th>Link</th>
+				</tr>
+			</thead>
+			<tbody id="search-results">
+			</tbody>
+		</table>
+	</main>
+	<script src="search.js"></script>
+</body>
+</html>
